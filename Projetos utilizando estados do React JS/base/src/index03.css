@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Mulish", sans-serif;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 20px;
+  max-width: 302px;
+  height: 428px;
+}
+.card-image {
+  background: url(assets/hamburguer.png) no-repeat center;
+  background-size: cover;
+  width: 302px;
+  border-radius: 20px 20px 0px 0px;
+  height: 211px;
+}
+.card h2 {
+  color: #131e30;
+  margin-top: 8px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.card p {
+  color: #131e30;
+  margin: 8px 42px 0px 42px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.count-itens {
+  margin-top: 60px;
+  width: 253px;
+  height: 47px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.count-lm {
+  cursor: pointer;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  background: #459275;
+  border-radius: 8px;
+  width: 38.54px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
+}
+.count {
+  color: #131e30;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+}
