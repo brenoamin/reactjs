@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    background:#F5F5F5;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap:40px;
+}
+.App{
+    display:flex;
+    flex-direction: column;
+    gap:40px;
+}
+.card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 20px;
+    max-width: 432px;
+    height: 389px;
+    padding:30px;
+}
+.close{
+    align-self:flex-end;
+    cursor:pointer;
+}
+.icon{
+    margin-bottom: 30px;
+}
+.card p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.card button{
+    all:unset;
+    box-sizing: border-box;
+    cursor:pointer;
+    border-radius: 5px;
+    color:#FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    padding:14px 63px;
+}
+.card button.cookie{
+    background-color: #ED6755;
+    box-shadow: 0px 4px 12px rgb(255, 120, 102);
+}
+.card button.alert{
+    background-color: #1C1B5E;
+    box-shadow: 0px 4px 12px rgb(37, 36, 139);
+}
