@@ -6,7 +6,7 @@
 1. Consulta de países
 <br>
 
-![image](https://user-images.githubusercontent.com/62851616/148596803-b802f936-82df-44fe-8285-e0927d53153c.png)
+![image](https://user-images.githubusercontent.com/62851616/148597007-75ebbf6c-b95f-4f96-8853-d392afbf184a.png)
 
 ![image](https://user-images.githubusercontent.com/62851616/148596856-ab4832b9-b9b8-41a8-8be9-7e44a3d8d2aa.png)
 
