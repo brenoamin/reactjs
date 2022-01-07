@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+body{
+    background-color:#FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+}
+
+.tela{
+    display:flex;
+}
+.right-side{
+    display:flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-top:152px;
+    margin-right: auto;
+}
+.right-side h1{
+    text-align: center;
+    margin-bottom: 52px;
+}
+.side-bar{
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    background-color:#313131;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    bottom:0;
+    z-index:3;
+}
+img, svg{
+    cursor: pointer;
+}
+.menu{
+    display:flex;
+    flex-direction: column;
+    gap:40px;
+}
+.post{
+    display:flex;
+    flex-direction: column;
+}
+.feed{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;
+}
+.lower-text{
+    display:flex;
+    justify-content: space-between;
+}
+.second-text{
+    color: #5C5C5C;
+}
+h1{
+    text-align: center;
+    margin-bottom: 52px;
+}
+.home{
+    display:inline-flex;
+    align-items: center;
+    color: #888888;
+}
+.heart{
+    display:inline-flex;
+    align-items: center;
+    color: #888888;
+}
+.config{
+    display:inline-flex;
+    align-items: center;
+    color: #888888;
+}
+h2{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 25px;
+}
+.hide{
+    display:none
+}
+.modal{
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    position:fixed;
+    justify-content: center;
+    align-items:center;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index:1;
+}
+.pic-modal{
+    width:750px;
+}
+.show-modal{
+    display:flex;
+}
+.hide-modal{
+    display:none;
+}
+.x-modal{
+    position:fixed;
+    top:70px;
+    right:35px;
+}
+.like-modal{
+    position:absolute;
+    top:36px;
+    right: 36px;
+}
+.relative-modal{
+    position:relative;
+}
+.like-image{
+    position: absolute;
+    z-index:0;
+    top:18px;
+    right:18px;
+}
+picture{
+    position:relative;
+}
