@@ -4,6 +4,7 @@
 
 ## Exercícios de classe 🏫
 1. Projeto "Galeria"
+ <br>
 ![image](https://user-images.githubusercontent.com/62851616/148562731-777db16a-c432-4adb-a165-55e5495fbbdd.png)
 ![image](https://user-images.githubusercontent.com/62851616/148562840-f31d963b-9c99-4687-9808-12b6cf01c06f.png)
 ![image](https://user-images.githubusercontent.com/62851616/148562861-06b6f1cc-5412-46bc-b5da-7e1f0614b9a7.png)
