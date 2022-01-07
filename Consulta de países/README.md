@@ -10,6 +10,9 @@
 
 ![image](https://user-images.githubusercontent.com/62851616/148596856-ab4832b9-b9b8-41a8-8be9-7e44a3d8d2aa.png)
 
+![image](https://user-images.githubusercontent.com/62851616/148597055-fc5403b4-8215-4996-b9fb-1e77e12f811f.png)
+
+
 ---
 
 Preencha a checklist para fazer os exercícios:
